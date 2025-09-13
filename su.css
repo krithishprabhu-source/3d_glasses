@@ -1,3 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitcount+Grid+Double:wght@100..900&family=Libertinus+Keyboard&family=Manufacturing+Consent&family=Pacifico&family=Story+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bitcount+Grid+Double:wght@100..900&family=Libertinus+Keyboard&family=Manufacturing+Consent&family=Pacifico&family=Story+Script&display=swap');
+
+.material-symbols-outlined{
+    text-align:center;
+    position:relative;
+    bottom:860px;
+    background:linear-gradient(90deg,rgba(42, 123, 155, 1) 0%, rgba(87, 199, 133, 1) 50%, rgba(237, 221, 83, 1) 100%);
+    -webkit-background-clip:text;
+    -webkit-text-fill-color:transparent;
+    font-size:50px;
+    font-weight:500;
+    left:555px;
+    z-index:2;
+}
+h1{ 
+    margin:0;
+    position:relative;
+    top:240px;
+    right:80px;
+    z-index:1;
+    font-size:50px;
+    font-family: "Story Script", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    text-align: center;
+}
 #main{
     background-color:rgb(0, 0, 0);
     width:350px;
@@ -16,14 +43,13 @@
 #main:hover{
     background-color: rgb(0, 0, 0);
 }
-section{
+.ty{
     margin:0;
     display:flex;
     justify-content: center;
     align-items: center;
     width:auto;
-    height:800px;
-
+    height:600px;
 }
 body{
     margin:0;
@@ -46,13 +72,12 @@ body{
 #one:hover{
     background-color:rgb(235, 73, 73);
 }
-
 #two:hover{
     background-color: rgb(117, 117, 231);
 }
 #hold{
     position:relative;
-    bottom:835px;
+    bottom:635px;
     left:280px;
     height:50px;
     width:150px;
@@ -64,7 +89,7 @@ body{
 }
 #der{
     position:relative;
-    bottom:790px;
+    bottom:590px;
     left:230px;
     width:50px;
     height:50px;
