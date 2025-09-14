@@ -1,7 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Bitcount+Grid+Double:wght@100..900&family=Libertinus+Keyboard&family=Manufacturing+Consent&family=Pacifico&family=Story+Script&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bitcount+Grid+Double:wght@100..900&family=Libertinus+Keyboard&family=Manufacturing+Consent&family=Pacifico&family=Story+Script&display=swap');
 
-.material-symbols-outlined{
+html, body {
+    overflow-x: hidden;
+}
+nav{
+    width:auto;
+    height:50px;
+    background: linear-gradient(90deg,rgba(252, 176, 69, 1) 65%, rgba(131, 58, 180, 1) 34%);
+}
+#ae{
     text-align:center;
     background:linear-gradient(90deg,rgba(42, 123, 155, 1) 0%, rgba(87, 199, 133, 1) 50%, rgba(237, 221, 83, 1) 100%);
     -webkit-background-clip:text;
@@ -40,8 +48,9 @@
     font-style: normal;
     text-align: center;
     position:relative;
-    bottom:895px;
-    left:115px;
+    bottom:890px;
+    left:20px;
+    margin:0
 }
 #main{
     background-color:rgb(0, 0, 0);
